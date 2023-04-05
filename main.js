@@ -15,3 +15,11 @@ function exibenome ()
     document.getElementById("mensagem").innerHTML = "meu nome é:" +usuario;
     document.getElementById("nome").value = "";
 }
+
+function resultado1 ()
+{
+    let usuario = document.getElementById("nome").value;
+    document.getElementById("mensagem").innerHTML = "resultado1" +usuario;
+    document.getElementById("nome").value = "";
+}
+
