@@ -2,6 +2,8 @@ document.addEventListener("click" , showcolor);
 
 document.getElementById("botao").addEventListener("click" , exibenome);
 
+document.getElementById("btn-soma").addEventListener("click" , somar)
+
 function showcolor()
 {
     document.body.style.backgroundColor = "pink";
