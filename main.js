@@ -22,8 +22,8 @@ function exibenome ()
 
 function exiberesultado1 ()
 {
-    let usuario = document.getElementById("num1").value;
-    let usuario = document.getElementById("num2").value;
+    let numero1 = document.getElementById("num1").value;
+    let numero2 = document.getElementById("num2").value;
     document.getElementById("resultado1").innerHTML = parseFloat(num1) + parseFloat(num2);
 }
 
