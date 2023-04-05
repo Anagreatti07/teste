@@ -15,3 +15,6 @@ function exibenome ()
     document.getElementById("mensagem").innerHTML = "meu nome é:" +usuario;
     document.getElementById("nome").value = "";
 }
+var total = Number("10") + Number("11");
+
+console.log(total);
